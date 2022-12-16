@@ -36,15 +36,11 @@ const StyledLink = styled.div`
   }
   h3 {
     font-weight: 500;
-    text-align: center;
+    text-align: center !important;
   }
-
   .shortend-link {
     flex: 1;
     color: hsl(180, 66%, 49%);
-  }
-  @media screen {
-    
   }
 `;
 
